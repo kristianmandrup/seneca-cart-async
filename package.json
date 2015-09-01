@@ -1,0 +1,74 @@
+{
+  "name": "seneca-cart-async",
+  "version": "0.0.1",
+  "description": "Async Seneca Cart  ",
+  "main": "dist/cart.js",
+  "scripts": {
+    "test": "gulp",
+    "test-browser": "gulp test-browser",
+    "build": "gulp build",
+    "coverage": "gulp coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kristianmandrup/seneca-cart-async.git"
+  },
+  "keywords": [],
+  "author": "Kristian Mandrup <kmandrup@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kristianmandrup/seneca-cart-async/issues"
+  },
+  "homepage": "https://github.com/kristianmandrup/seneca-cart-async",
+  "dependencies": {
+    "nid": "~0.3.2",
+    "underscore": "~1.6.0"
+  },
+  "devDependencies": {
+    "gex": "~0.1.4",
+    "seneca-engage": "~0.2.1",
+    "chai": "~1.9.1",
+    "seneca-async": "x",
+    "mocha": "~1.21.4",
+    "babel-core": "^5.2.17",
+    "babel-eslint": "^4.0.5",
+    "babelify": "^6.0.0",
+    "browserify": "^11.0.1",
+    "chai": "^3.2.0",
+    "del": "^1.1.1",
+    "esperanto": "^0.7.4",
+    "glob": "^5.0.14",
+    "gulp": "^3.8.10",
+    "gulp-babel": "^5.0.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-file": "^0.2.0",
+    "gulp-filter": "^3.0.0",
+    "gulp-istanbul": "^0.10.0",
+    "gulp-jscs": "^2.0.0",
+    "gulp-livereload": "^3.4.0",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-notify": "^2.1.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.0",
+    "gulp-sourcemaps": "^1.3.0",
+    "gulp-uglify": "^1.2.0",
+    "isparta": "^3.0.3",
+    "mocha": "^2.1.0",
+    "run-sequence": "^1.0.2",
+    "sinon": "^1.12.2",
+    "sinon-chai": "^2.7.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.0.0",
+    "watchify": "^3.3.1"
+  },
+  "babelBoilerplateOptions": {
+    "entryFileName": "cart",
+    "mainVarName": "cart",
+    "mochaGlobals": [
+      "stub",
+      "spy",
+      "expect"
+    ]
+  }
+}
