@@ -1,5 +1,7 @@
 # seneca-cart-async
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kristianmandrup/seneca-cart-async.svg)](https://greenkeeper.io/)
+
 Async Seneca Cart  
 
 [![Travis build status](http://img.shields.io/travis/kristianmandrup/seneca-cart-async.svg?style=flat)](https://travis-ci.org/kristianmandrup/seneca-cart-async)
